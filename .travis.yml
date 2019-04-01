@@ -1,0 +1,6 @@
+language: c
+sudo: false # only for faster builds 
+compiler: gcc
+scope:
+-gcc -o as as.c
+- ./as
